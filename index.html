@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Structures Programming</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #06152E;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .student, .card {
+            background: #102A50;
+            margin: 25px;
+            padding: 25px;
+            border-radius: 20px;
+            border: 1px solid #315B8E;
+        }
+
+        .student {
+            text-align: center;
+        }
+
+        .card h2 {
+            border-bottom: 2px solid #315B8E;
+            padding-bottom: 15px;
+        }
+
+        .topic {
+            cursor: pointer;
+        }
+
+        .topic:hover {
+            color: #9CCBFF;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            padding: 12px 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #9CCBFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>DATA STRUCTURES<br>PROGRAMMING</h1>
+
+    <div class="student">
+        <h1>NIHARIKA CHAUDHARY</h1>
+        <h2>BCA-2 'A' • 4289/25</h2>
+        <h2>DATA STRUCTURES<br>PROGRAMS</h2>
+    </div>
+
+    <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            SINGLE DIMENSION ARRAYS
+        </h2>
+
+        <ul style="display: none;">
+            <li><a href="https://drive.google.com/file/d/1d5tcSh4yHaTDMwt7e2_q82cHMQrCGoER/view?usp=drive_link" target="_blank">1.Enter an array from user and display all the values?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1qFjirDEf3XFWVhlrw05E6_ul8XfuCrTw/view?usp=drive_link" target="_blank">2.Enter an array from user and print the array in reverse order?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1I3T7-wyDRVybCjt5KEmxPjVOjvOT3ejm/view?usp=drive_link" target="_blank">3.Enter an array from user and copy the array into second array?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1NEvB2JGa4eT1OZ1kfjwEm2ZeDiwOr2uC/view?usp=drive_link" target="_blank">4.Enter an array from user and copy it into another array in reverse order?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1O16FiJZLH6r5AoKhChtriGDvVe3PhzTi/view?usp=drive_link" target="_blank">5.Enter an array from user and print the number which is even?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1IZw2u2e1cT4QRVmLGJ9DvdntoFkiKjX3/view?usp=drive_link" target="_blank">6.Enter an array from user and print the number which is positive?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1JvR8DDGUDgWXOmkwKeStn4WtNC6h9sGe/view?usp=drive_link" target="_blank">7.Enter an array from user and square all the values of array?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1OOY51slCI6Eyocn4m0iMH_OyMjmnqAPt/view?usp=drive_link" target="_blank">8.Enter an array from user and find maximum and minimum value?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1zpVYeXVrFRHsAAAwHAMo3z28EjMMVlC8/view?usp=drive_link" target="_blank">9.Enter an array from user and find the k-th smallest value?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1Rm6loeBzVvP-PvG524vliOa17ywiCXyB/view?usp=drive_link" target="_blank">10.Enter an array from user and add all values?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1P4Bd7OOyjg46NGbUbcHZb9EK32YLpakZ/view?usp=drive_link" target="_blank">11.Enter an array from user and find the duplicate values?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/15FdxcH48e9shjpPTNks5wVT8eXpYwzmr/view?usp=drive_link" target="_blank">12.Enter an array from user and remove the duplicate values and fill with zero?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1AMQ_w1Qb_Lu3mqyr8DHg6a5w-vriysxN/view?usp=drive_link" target="_blank">13.Enter an array from user and count the duplicate values?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1L0_effW99vd2sk10pwR2HUj0o9nfBz9k/view?usp=drive_link" target="_blank">14.Enter an array from user and print all possible combinations of the elements?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1sYnyO4vsZg6fZhnvPMI1cICnJBkhcCih/view?usp=drive_link" target="_blank">15.Enter an array from user and print all the palindrome numbers?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1VJN1iubvT_vmYtkyhwfGEQEGp06ydt-l/view?usp=drive_link" target="_blank">16.Enter two arrays from the user and check they are same or not?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1dW31lvFBOzAEbN3nf0AkmncxEj6Xl0rl/view?usp=drive_link" target="_blank">17.Merge the two sorted arrays into one array but in sorted order?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1JSn9GPl0Rve2l6Rp4iBmm5sCTdDsVAca/view?usp=drive_link" target="_blank">18.Find the local minima in the array? (An element in an array is a local minima if it is less than the element after it and the element before it.)</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1OSm1my5a0adWVdD0SM_36u4__R3ExuTl/view?usp=drive_link" target="_blank">19.Find the local maxima in the array? (An element in an array is a local maxima if it is greater than the element after it and the element before it.)</a></li>
+
+            <li><a href="https://drive.google.com/file/d/16MgpePyc4seFr4PAIw6brqMl6_AiZGye/view?usp=drive_link" target="_blank">20.Trapping Rain Water Problem: Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.</a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            STRING
+        </h2>
+
+        <ul style="display: none;">
+            <li><a href="https://drive.google.com/file/d/1H7k5E8sANWP3nI-lhw-iceHlWYdjUX9H/view?usp=drive_link" target="_blank">1.ENTER THE STRING FROM USER AND CONVERT IN UPPERCASE ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1P1-saFfdukyS_wUjnDpNFl6fm_Y6geOd/view?usp=drive_link" target="_blank">2.ENTER THE STRING FROM USER AND CONVERT IN LOWERCASE ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1d8gxKVdQdsSdoGXI7j9w6bo-6X3VwxoK/view?usp=drive_link" target="_blank">3.ENTER THE STRING FROM USER AND CONVERT INTO SENTENCE CASE ?</a></li>
+            
+            <li><a href="https://drive.google.com/file/d/1d8gxKVdQdsSdoGXI7j9w6bo-6X3VwxoK/view?usp=drive_link" target="_blank">4.ENTER THE STRING FROM USER AND CONVERT INTO TITLE CASE ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1glqvZuy9k1vNr2lZSd06MlMv7esvSfh5/view?usp=drive_link"target="_blank">5.ENTER THE STRING FROM USER AND CONVERT INTO TOGGLE CASE ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_1XVUFxDVKm0OD7UaUg5ZpmC3brhtZOi/view?usp=drive_link"target="_blank">6.ENTER THE STRING FROM USER AND FINAL LENGTH OF THE STRING ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/16enkzTjowQKAKrPbtpTDL1CheNcJXF7O/view?usp=drive_link"target="_blank">7.ENTER TWO STRINGS FROM USER AND COMPARE THOSE STRINGS THAT THEY ARE EQUAL OR NOT?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1auJy3FmSQ-ZGCEmgaz_zo3YRaOUxf1Zg/view?usp=drive_link"target="_blank">8.ENTER TWO STRINGS FROM USER AND CONCATENATE THOSE STRINGS IN ANOTHER STRING AND DISPLAY THE ANSWER?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1mX-5wlpx22Jfe1VfrFZH5G6KNFuOlh0t/view?usp=drive_link"target="_blank">9.ENTER THE STRING FROM USER AND COPY IT INTO ANOTHER STRING VARIABLE?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1Ef_ElddjU2KF1vj2GdR_5Tym_dkeSGAQ/view?usp=drive_link"target="_blank">10.ENTER THE STRING FROM USER, ENTER THE INDEX NUMBER AND PRINT CHARACTER PRESENT ON THAT INDEX ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/11mRhFWDm8tqbZH5Q1aNhmZCbUTVkYrye/view?usp=drive_link"target="_blank">11.ENTER THE STRING FROM USER AND CHECK ITS PALINDROME OR NOT?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/13eidJwNTxXU_Phjo_jzu02rXGVFx417B/view?usp=drive_link"target="_blank">12.ENTER THE STRING FROM THE USER AND PRINT EACH CHARACTER IN NEW LINE ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1rRnvmm8Do4CKJb2cJOwjW0Asv8kZBN4m/view?usp=drive_link"target="_blank">13.ENTER THE STRING FROM THE USER AND COPY REVERSE OF THE STRING INTO ANOTHER STRING ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1uHNZP0rzXE9Zf44w9e_Gg7lHmVOxQX0C/view?usp=drive_link"target="_blank">14.ENTER THE STRING FROM THE USER AND PRINT THE DIFFERENCE OF ASCII VALUE OF EACH CHARACTER ?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1nfoooMbpFQxeyGieQEFy2t-G9XOGUeNj/view?usp=drive_link"target="_blank">15.ENTER THE STRING FROM THE USER, ENTER A CHARACTER ALSO AND SEARCH THE CHARACTER IN THE STRING?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_zlv9ZQH8__5vv3PgqKWwX8zkBUtqPgy/view?usp=drive_link"target="_blank">16.ENTER THE STRING FROM THE USER, ALSO ENTER A CHARACTER AND PRINT THE INDEX OF THE CHARACTER IF IT IS EXIST IN THE STRING ELSE PRINT -1.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1BrGvxwFscNJBHabjduewKtoIuZ2Zg7AL/view?usp=drive_link"target="_blank">17.ENTER THE STRING FROM THE USER, AND COUNT THE NUMBER OF VOWELS.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1VNZCMlGEmNdqFHvjh9szW2AFxugRshTF/view?usp=drive_link"target="_blank">18.ENTER THE STRING FROM THE USER AND CONVERT INTO AN INTEGER VALUE?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1hbhHy0ICxjQI1BDhkEeO4AI3eDxLRsJn/view?usp=drive_link"target="_blank">19.ENTER THE STRING FROM THE USER AND CONVERT INTO A FLOAT VALUE?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1q47uqS6VWxDrYv5NyB4T5ZWC_vw4VCcc/view?usp=drive_link"target="_blank">20.ENTER THE STRING FROM THE USER AND COUNT THE NUMBER OF CHARACTERS, WORDS, SPACES AND LINES.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1IYHChe_gVc_e5S04hqw1mabsuKi-myKj/view?usp=drive_link"target="_blank">21.PRINT ALL THE PERMUTATION OF A STRING I.E. "ABCDE".</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1siZhFil-ihOS-69deLG-1LFyv_thWQUA/view?usp=drive_link"target="_blank">22.ENTER THE STRING FROM THE USER, SORT THE STRING IN ASCENDING ORDER AND PRINT IT.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1YnOUPPU9DBzoUb7Ay0WcbDDBzxqY8w65/view?usp=drive_link"target="_blank">23.ENTER A SENTENCE FROM USER AND THEN ENTER THE WORD AND COUNT THE OCCURENCE OF THAT WORD IN THE SENTENCE.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1nZnjnCJIQaTjQhpUQO0dcMiSR1fojqWi/view?usp=drive_link"target="_blank">24.ENTER A SENTENCE FROM USER AND THEN ENTER THE WORD AND REPLACE THAT WORD BY ANOTHER WORD.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/17a8_o2pX1Tk4630nICPds1R9EznVfz2B/view?usp=drive_link"target="_blank">25.ENTER THE STRING FROM THE USER AND TRIM/ ELIMINATE THE SPACES FROM BOTH ENDS (IF ANY).</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1yoNXtd1oyoHZoS7Oshp-Np8rWo62-C-p/view?usp=drive_link"target="_blank">26.ENTER THE STRING FROM USER AND SPLITS THE FIRST WORD AND SECOND WORD AND RETURN THE START INDEX OF THE SECOND WORD.</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1mB984aFD8StJx0opH7FkUPYQbu6L-d_O/view?usp=drive_link"target="_blank">27.DISPLAY THE STRING ON THE OUTPUT SCREEN BUT ASK THE TEXT ALIGNMENT OPTION GIVEN BY THE USER (1 FOR LEFT, 2 FOR CENTER, 3 RIGHT)</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1UfxONksL4ORFkAEha021XnVr0Ei2HVLj/view?usp=drive_link"target="_blank">28.CREATE A DICTIONARY HAVING 10 WORDS AND THEIR MEANING WITH FOLLOWING OPERATIONS. [CREATE, DELETE, SEARCH].</a></li>
+
+            <li><a href="https://drive.google.com/file/d/18XcHU4y6xq77Rmt5JO-QyYvo90BbD8Ec/view?usp=drive_link" target="_blank">29.ENTER THE STRING FROM USER AND CONVERT CHARACTERS INTO THEIR ASCII VALUES IN THE INTEGER ARRAY. [FOR EXAMPLE TAKE 10 CHARACTERS]</a></li>
+
+        </ul>
+    </div>
+
+
+        <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            RECURSION
+        </h2>
+
+        <ul style="display: none;">
+        <li><a href="https://drive.google.com/file/d/1Qr-8lv-VO9c9Bqmrs-_CsftdXN6g2qfa/view?usp=drive_link" target="_blank">1. CALCULATE FACTORIAL OF A NUMBER USING RECURSION?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1OJPmzjVk9tegW81qoyGHw0Z73Ohsm8wb/view?usp=drive_link" target="_blank">2.CALCULATE FIBONACCI OF A NUMBER USING RECURSION?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1hmZqB2AvZTkwH53lbQTsWPLyQxxoxx1F/view?usp=drive_link" target="_blank">3.CALCULATE THE SUM OF NATURAL NUMBERS TILL 10 USING RECURSION.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1u5q3MFxa3algZpnSguR46TpOOkFTeBiq/view?usp=drive_link" target="_blank">4.CONVERT A NUMBER INTO BINARY USING RECURSION?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1tynD4WoJY1mYauaroDwOIOHx9lVH6DIf/view?usp=drive_link" target="_blank">5.FIND THE LARGEST ELEMENT IN THE INTEGER ARRAY USING RECURSION.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1tEsQWskU2b9mMcGBsntg0JpbJroC7eqp/view?usp=drive_link" target="_blank">6.FIND THE SMALLEST ELEMENT IN THE INTEGER ARRAY USING RECURSION.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1fIDBpqXO8XdbNYXa1LJd7ymlL371c60x/view?usp=drive_link" target="_blank">7.ENTER THE NUMBER FROM THE USER AND ADD ALL DIGITS OF THE NUMBER USING RECURSION?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1dqtqzrXnRoBxRDK3rHoVZ-1oZLWVF_ud/view?usp=drive_link" target="_blank">8.FIND THE ARITHMETIC MEAN OF AN INTEGER ARRAY USING RECURSION?</a></li>
+
+         </ul>
+    </div>
+
+        <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            MULTI DIMENSION ARRAYS
+        </h2>
+
+        <ul style="display: none;">
+            <li><a href="https://drive.google.com/file/d/19Ftcrktv12M1w6NbPuMpoOTqdWceSMn0/view?usp=drive_link">1.Enter a matrix of 4 rows and 2 columns from the user display it in matrix format??</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1_9Ra4igWObKZdryLKuaMI6xtFbxVn0lq/view?usp=drive_link">2.Enter two Matrices from user, add the matrices and display the answer??</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1exf3tfws2PDra6chrJ7rF621miwMAv8s/view?usp=drive_link">3.Enter two Matrices from user, subtract the matrices and display the answer??</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1XalqPWX2QN2H7_gbSyzxLzfFdLF4rtkA/view?usp=drive_link">4.Enter two Matrices from user, multiply the matrices and display the answer??</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1axF2TZY2mUoixy3LVbRUYYYh7Bids0fI/view?usp=drive_link">5.Enter a Matrix from user, copy it in another matrix of same size??</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1bpSgYnawdY1eQEuC9_xvM_bGE476OkhV/view?usp=drive_link">6.Enter the Matrix from user, multiply it with a scalar value and display the answer??</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1K4p9drlEqtk9Q7iT5EKRXoD7I5u1l2Lk/view?usp=drive_link">7.Create a tic tac toe game using 2D Arrays.?</a></li>
+
+             
+        </ul>
+    </div>
+
+      <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            STACKS
+        </h2>
+
+        <ul style="display: none;">
+        <li><a href="https://drive.google.com/file/d/1g_KXPthszoJDLAYgFh-Mt_3c6DBhkH3O/view?usp=drive_link" target="_blank">1.CREATE A STACK IMPLEMENTING THE OPERATIONS ON AN INTEGER ARRAY (PUSH, POP, PEEK, ISEMPTY, ISFULL)?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1r5RukJUL5YzHfln0mgzP8G3yH1Z--VRy/view?usp=drive_link" target="_blank">2.CREATE A STACK IMPLEMENTING THE OPERATIONS ON THE CHARACTERS ARRAY (PUSH, POP, PEEK, ISEMPTY, ISFULL)?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1Lj2KkIYgI9gOPoHjY-nX5U791i6S8vDM/view?usp=drive_link" target="_blank">3.CREATE A STACK IMPLEMENTING THE OPERATIONS ON AN INTEGER NODES (DYNAMICALLY) (PUSH, POP, PEEK, ISEMPTY, ISFULL)?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1F6E-ty013E6VH6NiYw7MIXnXLycMIH1p/view?usp=drive_link" target="_blank">4.CREATE A STACK IMPLEMENTING THE OPERATIONS ON THE CHARACTERS NODES (DYNAMICALLY) (PUSH, POP, PEEK, ISEMPTY, ISFULL)?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1mOPeQpQNkLnnIMgy0CXjNGVu55lOPC06/view?usp=drive_link" target="_blank">5.ENTER THE STRING FROM THE USER AND REVERSE THE STRING USING STACKS.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1L_oJ3z5yo7AjMshr6hLwCA4ReMNoXXlI/view?usp=drive_link" target="_blank">6.CREATE THE PROGRAM TO MATCH THE SINGLE BRACKET USING STACKS.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1m_T7XjSlo6uBml6AisolPLFHgx1sk8Gd/view?usp=drive_link" target="_blank">7.CREATE TWO INTEGER STACKS IN A SINGLE ARRAY.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/11kWZ58E02qKSE-WQc2mmOyGwCMBkriVK/view?usp=drive_link" target="_blank">8.SORT THE STACK IN ASCENDING ORDER USING INTEGER ARRAY.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/14Z2TRNEInhfq5zUe02C6zcFzlNJcX3UF/view?usp=drive_link" target="_blank">9.ENTER THE INFIX EXPRESSION FROM USER AND CONVERT INTO PREFIX EXPRESSION.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1QWh_mT04aBIhxrBEa_c1SMsjT1J47Br4/view?usp=drive_link" target="_blank">10.ENTER THE INFIX EXPRESSION FROM USER AND CONVERT INTO POSTFIX EXPRESSION.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1Hi8oZNg38ILndzLCOHd41GfhHZBfiqLL/view?usp=drive_link" target="_blank">11.CREATE A PROGRAM TO EVALUATE THE PREFIX EXPRESSION.?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1oC7uRqb2VR0zRoMuM_-EAkFsfE7MHDVy/view?usp=drive_link" target="_blank">12.CREATE A PROGRAM TO EVALUATE THE POSTFIX EXPRESSION.?</a></li>
+
+         <li><a href="https://drive.google.com/file/d/1CJuFODQApS67qqRvb0Kd-zgbYvfZKtXS/view?usp=drive_link" target="_blank">13.IMPLEMENT THE TOWER OF HANOI USING STACKS.?</a></li>
+
+         
+             </ul>
+    </div>
+
+    <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            QUEUES
+        </h2>
+        <ul style="display: none;">
+        <li><a href="https://drive.google.com/file/d/1HoVKPgnVCenf04-qEbKYo2kmXsVaZrxQ/view?usp=drive_link" target="_blank">1.IMPLEMENT THE OPERATIONS OF SIMPLE QUEUE IN AN INTEGER ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1P48KNZNIBsmCIb-C7bC1x6q4Aewwnc4B/view?usp=drive_link" target="_blank">2.IMPLEMENT THE OPERATIONS OF SIMPLE QUEUE IN AN STRING ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL).</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1D-OrPSxwcu9sq0xP7yEKlg-VZYfz56wZ/view?usp=drive_link" target="_blank">3.IMPLEMENT THE OPERATIONS OF QUEUE DYNAMICALLY OF INTEGERS (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1vtQRifeDFFlK7ncdFZv8HleRZumICk_W/view?usp=drive_link" target="_blank">4.IMPLEMENT THE OPERATIONS OF QUEUE DYNAMICALLY OF STRING (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1UB7zVKdu1oBs9767b4zQYu0ldxru6qdC/view?usp=drive_link" target="_blank">5.IMPLEMENT THE OPERATIONS OF CIRCULAR QUEUE IN AN INTEGER ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1wumCI77DnpAMZVbdjgaYEKFMErEk39G0/view?usp=drive_link" target="_blank">6.IMPLEMENT THE OPERATIONS OF CIRCULAR QUEUE IN AN STRING ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1J0IEDvl21pNtXhFyCilSg5Ktubxy8Pi5/view?usp=drive_link" target="_blank">7.IMPLEMENT THE OPERATIONS OF PRIORITY QUEUE IN AN INTEGER ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1RMHklCc2ODWa1oyF9oPw2yPDyn9rPMvs/view?usp=drive_link" target="_blank">8.IMPLEMENT THE OPERATIONS OF PRIORITY QUEUE IN AN STRING ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1pXWb3mwlrhgK0ApprPCYtguL59o-Qxpp/view?usp=drive_link" target="_blank">9.IMPLEMENT THE OPERATIONS OF DOUBLE ENDED QUEUE IN AN INTEGER ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1KRPcyjoKv9E_LVTJt-VvV7fRKBHuKpb0/view?usp=drive_link" target="_blank">10.IMPLEMENT THE OPERATIONS OF DOUBLE ENDED QUEUE IN AN STRING ARRAY (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1ObIG2ina5UuXNjtoEJ5YmJtm7wQAJyfC/view?usp=drive_link" target="_blank">11.IMPLEMENT THE OPERATIONS OF PRIORITY QUEUE DYNAMICALLY OF INTEGERS (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1sLpLkWuhOI5JeEZQJ0b7ShS8yMgVv88C/view?usp=drive_link" target="_blank">12.IMPLEMENT THE OPERATIONS OF PRIORITY QUEUE DYNAMICALLY OF STRING (INSERT, DELETE, PEEK, ISEMPTY, ISFULL)?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1pH07w-Ljm5Vj40yFlyXaxEq7Kgv-FfE5/view?usp=drive_link" target="_blank">13.FIND THE FIRST CIRCULAR TOUR THAT VISITS ALL PETROL PUMPS ?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1xheMANCtPcTRvDaV8bcsJAWNx760dk0O/view?usp=drive_link" target="_blank">14.LENGTH OF THE LONGEST VALID STRING?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1uU8k8glgbYtFyAExWRR5X3VpCaYNlWir/view?usp=drive_link" target="_blank">15.FIND THE NEXT GREATER ELEMENT?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1kc9T8cttMafrsdYezKpNuZ3-o1YxWU2P/view?usp=drive_link" target="_blank">16. FIND THE NEXT SMALLER ELEMENT?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/13Zu9t5PTQcrkbn9AU-2FWc8AheNBZ4VO/view?usp=drive_link" target="_blank">17.QUEUE BASED APPROACH FOR FIRST NON REPEATING CHARACTER IN A STREAM?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1E_yobvtzIIHZkpe9DiJnolFgr3zwIQar/view?usp=drive_link" target="_blank">18.REVERSE FIRST K ELEMENTS OF QUEUE ?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1AZVBZ3ZTgQI2jF5AX24ppfCAVhX5v0FF/view?usp=drive_link" target="_blank">19.QUEUE REVERSAL?</a></li>
+
+        <li><a href="https://drive.google.com/file/d/13ElNFT4kfzYLKZ2GG1e9l2tYlYk9MnMu/view?usp=drive_link" target="_blank">20.ROTTEN ORANGES?</a></li>
+
+        </ul>
+    </div>
+
+      <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            LINKED LIST
+        </h2>
+        <ul style="display: none;">
+            
+        <li><a href="https://drive.google.com/file/d/19dEUC1BrWJ4RsHvPFkgRoPjTGwFwS2RZ/view?usp=drive_link" target="_blank">1.IMPLEMENT THE OPERATIONS OF SINGLE LINKED LIST STORING INTEGER VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1EMEXrUcD0dsiAdSE5t3MZS8bEQI1MObA/view?usp=drive_link" target="_blank">2.IMPLEMENT THE OPERATIONS OF SINGLE CIRCULAR LINKED LIST STORING INTEGER VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1pJGnTgdDq_kQhwtrb4Y_v5nbs0YgbJz2/view?usp=drive_link" target="_blank">3.IMPLEMENT THE OPERATIONS OF DOUBLY LINKED LIST STORING INTEGER VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1lk4S3KucmgmAO1Pwr6IxgqT16nx6FKgD/view?usp=drive_link" target="_blank">4.IMPLEMENT THE OPERATIONS OF DOUBLY CIRCULAR LINKED LIST STORING INTEGER VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1x6oRK3RkU2L_nqVuoQd2zKTaSw2A7qxQ/view?usp=drive_link" target="_blank">5.IMPLEMENT THE OPERATIONS OF SINGLE LINKED LIST STORING STRING VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1GtXzDHrsBL0qWBqZKOfmKnf8xe_V24hZ/view?usp=drive_link" target="_blank">6.IMPLEMENT THE OPERATIONS OF SINGLE CIRCULAR LINKED LIST STORING STRING VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/19wFwGoMEdSAV6tfMTXabyUQp1mnogkJW/view?usp=drive_link" target="_blank">7.IMPLEMENT THE OPERATIONS OF DOUBLY LINKED LIST STORING STRING VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/17OCCvw886RSYMK_wvxg8wrI2ZGoMkuJE/view?usp=drive_link" target="_blank">8.IMPLEMENT THE OPERATIONS OF DOUBLY CIRCULAR LINKED LIST STORING STRING VALUES (INSERT AT BEGIN,INSERT AT POS,INSERT AT END,DELETE AT BEGIN,DELETE AT END, DELETE AT POS, ISEMPTY, ISFULL, DISPLAY, SEARCH)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1HzY5fbe2FWZ9WQSAnqWYoYHx1jKhdJrD/view?usp=drive_link" target="_blank">9.ENTER THE 2 POLYNOMIAL EQUATIONS DYNAMICALLY, ADD THEM AND DISPLAY THE ANSWER.</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1ZRpbld8oRNxQgsqzVn9a_sMjJG8pfYsm/view?usp=drive_link" target="_blank">10.ENTER THE 2 POLYNOMIAL EQUATIONS DYNAMICALLY, SUBTRACT THEM AND DISPLAY THE ANSWER.</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1BVyxcgejtp58Tgm9or-p6qKxduZTbZK0/view?usp=drive_link" target="_blank">11.ENTER THE 2 POLYNOMIAL EQUATIONS DYNAMICALLY, MULTIPLY THEM AND DISPLAY THE ANSWER.</a></li>
+
+         </ul>
+    </div>
+
+     <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            TREES
+        </h2>
+        <ul style="display: none;">
+            
+        <li><a href="https://drive.google.com/file/d/18Zs2OWYIjo6tIJVVNQOnbsKRmkulcDsC/view?usp=drive_link" target="_blank">1.CONSTRUCT BINARY TREE FROM PREORDER AND INORDER TRAVERSAL</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1NzxcnWZoBb1SRQ2l_NvugQvzSUQiQGrK/view?usp=drive_link" target="_blank">2.BINARY TREE LEVEL ORDER TRAVERSAL</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1NvOVhuy3jKhgjkhHgnTnGglhpzcU0OeQ/view?usp=drive_link" target="_blank">3.PRINT LEFT VIEW OF BINARY TREE</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1MDXLEMRO8yAbvv95ZiCxWOR_u-zL8W_e/view?usp=drive_link" target="_blank">4.DISPLAY THE RIGHT VIEW OF BINARY TREE</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1P54lz0sBtSbxJAleeNmAlZPP5DwJtglY/view?usp=drive_link" target="_blank">5.CONSTRUCT BINARY TREE FROM POSTORDER AND INORDER TRAVERSAL</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1BUBM10iRociAJXO2p6-4dOP2hdQewX3o/view?usp=drive_link" target="_blank">6.FIND THE MAXIMUM DEPTH OF BINARY TREE</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1zYHMiV34pwhaSFzlKZS7BJvWrJGIEsdq/view?usp=drive_link" target="_blank">7.CREATE BINARY SEARCH TREE USING ARRAYS (INSERT, DELETE, SEARCH, PREORDER, INORDER, POSTORDER, MINIMUM ELEMENT)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1iXVXttoLHGFrC3GoW4Gi868IYFOu1_u8/view?usp=drive_link" target="_blank">8.CREATE BINARY SEARCH TREE DYNAMICALLY (INSERT, DELETE, SEARCH, PREORDER, INORDER, POSTORDER, MINIMUM ELEMENT)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/12AnGDY8DHHyutUnOsFkr89C5Zse_KXEj/view?usp=drive_link" target="_blank">9.FIND INORDER PREDECESSOR AND INORDER SUCCESSOR OF BINARY SEARCH TREE (DYNAMICALLY REPRESENTED)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1s3ADViVHqZW0h90Qy23BgFpl0OU2ZuJt/view?usp=drive_link" target="_blank">10.CHECK WHETHER BINARY SEARCH TREE CONTAINS DEAD END</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1KZsnLZbFim6gSNKZAkjk58HOCKhznMlX/view?usp=drive_link" target="_blank">11.CREATE BINARY TREE TO BINARY SEARCH TREE THROUGH ARRAY</a></li>
+
+        <li><a href="https://drive.google.com/file/d/172jNHt11ci7Vebovo8Z399kIImonscuO/view?usp=drive_link" target="_blank">12.FIND KTH LARGEST ELEMENT IN BINARY SEARCH TREE THROUGH ARRAY</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1bUv9lV9lMBRc841fxETeRvD7NghMm4z-/view?usp=drive_link" target="_blank">13.FIND KTH SMALLEST ELEMENT IN A BINARY SEARCH TREE THROUGH ARRAY</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1NXjB0uO-0PKkFvgk4pY4qpTWvHm0B53O/view?usp=drive_link" target="_blank">14.PRINT PREORDER TRAVERSAL TO POSTORDER TRAVERSAL OF BINARY SEARCH TREE</a></li>
+
+        <li><a href="https://drive.google.com/file/d/17zt-_wo05-iqO6UG8TP_nKXchoDISdpU/view?usp=drive_link" target="_blank">15.CONSTRUCT BINARY SEARCH TREE FROM GIVEN PREORDER TRAVERSAL THROUGH ARRAYS</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1lkZnfEownNfg7W60kAlRPsJjK6TzQhHX/view?usp=drive_link" target="_blank">16.CONSTRUCT BINARY SEARCH TREE FROM GIVEN POSTORDER TRAVERSAL THROUGH ARRAYS</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1QKX6aiN6WnjbyKTj2O1S1IGM1TGbxfFX/view?usp=drive_link" target="_blank">17.CREATE STRICTLY BINARY TREE FROM THE GIVEN INPUT BY THE USER (DYNAMICALLY)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1ATqAllH9ysh3JZPwFOVjHVWLA3c4mlxR/view?usp=drive_link" target="_blank">18.CREATE ALMOST COMPLETE BINARY TREE FROM THE GIVEN INPUT BY THE USER (DYNAMICALLY)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1Fl0PGszUJbEPFGMYcnlH02VA_BYPk00B/view?usp=drive_link" target="_blank">19.CREATE COMPLETE BINARY TREE FROM THE GIVEN INPUT BY THE USER (DYNAMICALLY)</a></li>
+
+        <li><a href="https://drive.google.com/file/d/1VX0Pexsm_fJiijKUm4u-0l83ucJ5LP9z/view?usp=drive_link" target="_blank">20.COUNT THE NUMBER OF NODES IN BINARY SEARCH TREE CONSTRUCTED DYNAMICALLY</a></li>
+
+  </ul>
+    </div>
+
+      <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            GRAPHS
+        </h2>
+
+        <ul style="display: none;">
+            <li><a href="https://drive.google.com/file/d/1I-zb3Bo7OXeaWOxehHvzL775-GoJ48Y9/view?usp=drive_link" target="_blank">1.ENTER THE VERTICES AND EDGES AND REPRESENT IN ADJACENCY MATRIX AND PRINT IT.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1d7otRbEwHmKLEKmx12LX4WgUsFoPz8GA/view?usp=drive_link" target="_blank">2.CREATE THE GRAPH AS A ADJACENCY LIST WITH OPERATIONS SUCH AS INSERTION, DELETION?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1ftBwDBlYFg6qykU7HflWKFm3Gju3Wvsu/view?usp=drive_link" target="_blank">3.TRAVERSE THE ADJACENT MATRIX WITH DEPTH FIRST SEARCH?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1alKgdLIxbOwZPX48K8gTqoByXMIkWlXF/view?usp=drive_link" target="_blank">4.TRAVERSE THE ADJACENT LIST WITH DEPTH FIRST SEARCH?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1P184ZMoVZZRFKDAEUHTcLQQ97NhZ5ZmQ/view?usp=drive_link" target="_blank">5.TRAVERSE THE ADJACENT MATRIX WITH BREADTH FIRST SEARCH?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1rz3pIOV-HcTskhxXlq39RG0PUi11IO38/view?usp=drive_link" target="_blank">6.TRAVERSE THE ADJACENT LIST WITH BREADTH FIRST SEARCH?</a></li>
+
+
+  </ul>
+    </div>
+
+    <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            SEARCHING ALGORITHM
+        </h2>
+
+        <ul style="display: none;">
+            <li><a href="https://drive.google.com/file/d/1cXNgGSWkWDqKudL923Y7SliGppe3Yulx/view?usp=drive_link" target="_blank">1.ENTER A INTEGER ARRAY FROM THE USER, ENTER AN INTEGER VALUE AND PERFORM LINEAR SEARCH ALGORITHM THROUGH ITERATION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1TFk1BUCw2R-3XZ6ToFQHhMDTyz27jY4_/view?usp=drive_link" target="_blank">2.ENTER A STRING FROM THE USER, ENTER A CHARACTER AND PERFORM LINEAR SEARCH ALGORITHM THROUGH RECURSION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/103PhM6bX8qrmzBLv1Nngz7I6gi1rzh9s/view?usp=drive_link" target="_blank">3.ENTER A INTEGER ARRAY FROM THE USER, ENTER AN INTEGER VALUE AND PERFORM LINEAR SEARCH ALGORITHM THROUGH RECURSION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1UdHtk4ZhtVd8sTVY5Znr77FzOleGlHWA/view?usp=drive_link" target="_blank">4.ENTER A STRING FROM THE USER, ENTER A CHARACTER AND PERFORM LINEAR SEARCH ALGORITHM THROUGH ITERATION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1uptSqvT3N-SUN7CjbnApXAh40bGs4FHc/view?usp=drive_link" target="_blank">5.ENTER A INTEGER ARRAY FROM THE USER, ENTER AN INTEGER VALUE AND PERFORM BINARY SEARCH ALGORITHM THROUGH ITERATION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1LRzZc2fWMGjO4_oxi0dR9Tnct0T3-ow1/view?usp=drive_link" target="_blank">6.ENTER A STRING FROM THE USER, ENTER A CHARACTER AND PERFORM BINARY SEARCH ALGORITHM THROUGH RECURSION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1jysduuoD2UVfiRH_k5-zJ5Q0eMlvZZJ5/view?usp=drive_link" target="_blank">7.ENTER A INTEGER ARRAY FROM THE USER, ENTER AN INTEGER VALUE AND PERFORM BINARY SEARCH ALGORITHM THROUGH RECURSION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1w2Pjv732hrtK3SsZ2mkerFiS-9Qyee6M/view?usp=drive_link" target="_blank">8.ENTER A STRING FROM THE USER, ENTER A CHARACTER AND PERFORM BINARY SEARCH ALGORITHM THROUGH ITERATION.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1ZgLkQVWYR07M6crXtYftii0NKIo4Pjh3/view?usp=drive_link" target="_blank">9.CALCULATE THE BEST AND WORST COMPLEXITY OF THE LINEAR SEARCHING ALGORITHM WITH EXACT TIME TAKEN BY THE ALGORITHM ON INTEGER ARRAY.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1HWzTEPK8S2ghxATXqqSPdtAFV_rEefs_/view?usp=drive_link" target="_blank">10.CALCULATE THE BEST AND WORST COMPLEXITY OF THE BINARY SEARCHING ALGORITHM WITH EXACT TIME TAKEN BY THE ALGORITHM ON INTEGER ARRAY.?</a></li>
+
+ </ul>
+    </div>
+
+     <div class="card">
+        <h2 class="topic" onclick="toggleQuestions(this)">
+            SORTING ALGORITHM
+        </h2>
+
+        <ul style="display: none;">
+            <li><a href="https://drive.google.com/file/d/1NmByY2tE3Iq49wDSFItvLdl30FEzvVIu/view?usp=drive_link" target="_blank">1.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM SELECTION SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1G-zWTSBIEd9ncrpGJCnASiBNcW-n-oeS/view?usp=drive_link" target="_blank">2.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM SELECTION SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1iX5QM8dqJqbUVEAEDySzV8XNNtxU8Ek4/view?usp=drive_link" target="_blank">3.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM BUBBLE SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1e4NNUQZt-Kdjsg-eC_zi7Yrv1LkK0M4B/view?usp=drive_link" target="_blank">4.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM BUBBLE SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/163dvJAZeWQd9n8-UGyYW-qP68LVPlr7C/view?usp=drive_link" target="_blank">5.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM INSERTION SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1DdE1-u9gAQTEuKbtAOnZdMUKWTA05DNL/view?usp=drive_link" target="_blank">6.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM INSERTION SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1RroCYXlF4KtdBqJ46f0MQmKYOsAlRl38/view?usp=drive_link" target="_blank">7.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM MERGE SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1-bxvon2_lfCEMwP-_uyjgej-uRUNvWBC/view?usp=drive_link" target="_blank">8.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM MERGE SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1wlxNzj_IRBpT0-WyV3qJhUyr9wRkK5u6/view?usp=drive_link" target="_blank">9.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM QUICK SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1up7NfbWkyI4cJmOquQuJnvqNOtMDQaHH/view?usp=drive_link" target="_blank">10.ENTER A INTEGER ARRAY FROM THE USER AND PERFORM QUICK SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/126Bkz6EyPhR07IiPCYNUR2NjeQgJLhRt/view?usp=drive_link" target="_blank">11.ENTER A STRING ARRAY FROM THE USER AND PERFORM SELECTION SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1wqLGA_vlcLJAtBeQMF4R9RSBu1V0aqEq/view?usp=drive_link" target="_blank">12.ENTER A STRING ARRAY FROM THE USER AND PERFORM SELECTION SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1dZ-_ayUn73mCk5c_efKgO_BCsma0ituB/view?usp=drive_link" target="_blank">13.ENTER A STRING ARRAY FROM THE USER AND PERFORM BUBBLE SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME.?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1NwuF5g3mbi7v7pZH6sdtr8UueNYZrrJd/view?usp=drive_link" target="_blank">14.ENTER A STRING ARRAY FROM THE USER AND PERFORM BUBBLE SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+             
+            <li><a href="https://drive.google.com/file/d/1spvVRgiW-uyDWYrttCBgFfaHTaw-OnQf/view?usp=drive_link" target="_blank">15.ENTER A STRING ARRAY FROM THE USER AND PERFORM INSERTION SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+             
+            <li><a href="https://drive.google.com/file/d/1UWdem0lLGK7tfSAxPZpwpvGwZrqdDXKF/view?usp=drive_link" target="_blank">16.ENTER A STRING ARRAY FROM THE USER AND PERFORM INSERTION SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+             
+            <li><a href="https://drive.google.com/file/d/1a9lLhINABc2S1dyQQsBZsNBHz4dkLVA9/view?usp=drive_link" target="_blank">17.ENTER A STRING ARRAY FROM THE USER AND PERFORM MERGE SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1vD6PduJSONM2PvaNG05F9vD2bLR31oHq/view?usp=drive_link" target="_blank">18.ENTER A STRING ARRAY FROM THE USER AND PERFORM MERGE SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+
+            <li><a href="https://drive.google.com/file/d/1ZOnmWVVpqxN3mIjurXQCrQnrrM3lTQ1h/view?usp=drive_link" target="_blank">19.ENTER A STRING ARRAY FROM THE USER AND PERFORM QUICK SORT ALGORITHM THROUGH ITERATION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li>
+            
+            <li><a href="https://drive.google.com/file/d/1H75pYhidZ6e76TGEduM4-NDyZRXEEGPH/view?usp=drive_link" target="_blank">20.ENTER A STRING ARRAY FROM THE USER AND PERFORM QUICK SORT ALGORITHM THROUGH RECURSION. ALSO CALCULATE THE WORST AND BEST COMPLEXITY WITH EXACT TIME?</a></li> 
+
+</ul>
+    </div>
+    <script>
+        function toggleQuestions(topic) {
+            const questions = topic.nextElementSibling;
+
+            if (questions.style.display === "none") {
+                questions.style.display = "block";
+            } else {
+                questions.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
